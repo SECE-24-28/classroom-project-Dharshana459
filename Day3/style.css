@@ -1,0 +1,31 @@
+.box{
+    height:100px;
+    width:100px;
+    background-color:blue;
+    color:white;
+    border: 2px solid black;
+    
+}
+
+.container{
+    height:80vh;
+    border:3px solid red;
+    display:flex;
+    justify-content:center;
+    align-items:start;
+   /* gap:20px;*/
+   row-gap:30px;
+   column-gap:20px;
+   flex-wrap: wrap;
+   flex-direction:column;
+}
+#b10{
+    order:1;
+
+}
+#b5{
+    order:2;
+}
+#b3{
+    align-self:center;
+}
