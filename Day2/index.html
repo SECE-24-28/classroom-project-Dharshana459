@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+</head>
+<body>
+    <header>
+        <h1>Day 2</h1>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li><a href="/">Home</a> </li>
+                <li><a href="/">About</a> </li>
+                <li><a href="/">Contact</a> </li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        This is main
+    </main>
+    <article>
+        This is article
+    </article>
+    <section>
+        This is section
+    </section>
+
+    <video width="400" height="300"  controls>
+        <source src="Dharshana.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+
+    </video> <br><br><br>
+    <audio autoplay loop controls>
+         <source src="song.mp3" type="audio/mpeg">
+    </audio> <br>
+
+    <img src="shinchan.jpg" width="300" alt="Nature scenery">
+
+    <hr>
+    <aside>
+        This is aside
+    </aside>
+
+    <!--Table-->
+    <section id="table" aria-labelledby="table-title">
+      <h2 id="table-title">Student Scores Table</h2>
+      <table border="1" cellpadding="6" cellspacing="0">
+        <caption>Class 12 — Math Scores</caption>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Roll</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Asha</td><td>12A01</td><td>88</td></tr>
+          <tr><td>2</td><td>Ramesh</td><td>12A02</td><td>92</td></tr>
+          <tr><td>3</td><td>Neha</td><td>12A03</td><td>75</td></tr>
+          <tr><td>4</td><td>Vikram</td><td>12A04</td><td>81</td></tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Average (example)</td>
+            <td>84</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+<section id="form" aria-labelledby="form-title">
+      <h2 id="form-title">Contact Form</h2>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <p>
+          <label for="fullname">Full name:</label><br>
+          <input id="fullname" name="fullname" type="text" placeholder="Your name" required>
+        </p>
+
+        <p>
+          <label for="email">Email:</label><br>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        </p>
+
+        <p>
+          <label>Gender:</label><br>
+          <label><input type="radio" name="gender" value="female" required> Female</label>
+          <label><input type="radio" name="gender" value="male"> Male</label>
+          <label><input type="radio" name="gender" value="other"> Other</label>
+        </p>
+
+        <p>
+          <label for="course">Interested course:</label><br>
+          <select id="course" name="course" required>
+            <option value="">-- choose --</option>
+            <option value="web">Web Development</option>
+            <option value="data">Data Science</option>
+            <option value="mobile">Mobile Apps</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" placeholder="Write something..." required></textarea>
+        </p>
+
+        <p>
+          <label for="resume">Upload resume (optional):</label><br>
+          <input id="resume" name="resume" type="file" accept=".pdf,.doc,.docx">
+        </p>
+
+        <p>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </p>
+      </form>
+    </section>
+
+<input type="checkbox" name="" id="">
+<input type="color" name="" id="">
+<input type="file" name="" id="">
+<input type="month" name="" id="">
+<input type="number" name="" id="">
+<input type="password" name="" id="">
+<input type="radio" name="" id="">
+
+
+
+<label for="urls"> Type URL </label>
+<input type="url" name="" id="urls" placeholder="https://google.com">
+
+<input type="text" name="" id="" placeholder="Enter text:" value="This is value" 
+required title="this is required fiels" minlength="2" maxlength="6">
+
+<input type="number" name="" id="" min="10" max="100">      
+
+
+    <b> This is bold</b> <br>
+    <strong>This is strong</strong> <br>
+    <i> This is italic</i>
+    <mark>This is mark</mark>
+    <small>This is small</small>
+    <u>This is underline</u>
+
+    <footer>
+        This is footer
+    </footer>
+</body>
+</html>
